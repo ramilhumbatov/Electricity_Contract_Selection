@@ -7,9 +7,9 @@ Just over a year ago, a smart electricity meter was installed at home, reporting
 The project processes a raw, unsorted, and poorly structured historical dataset containing 8,760 hourly readings (one full year) alongside contract pricing tiers.
 * **Raw Data Structure:** Messy text strings combining timestamps, extra whitespaces, random underscores, and energy values (e.g., `_1AM  Friday 19th-Dec-2014___0.209  kwh  `).
 * **Contract Types Evaluated:**
-  1. **No Flex (Flat Rate):** Constant cost per kWh for the entire year ($0.21 / kWh).
-  2. **Monthly Flex:** Rates fluctuate depending on the month.
-  3. **Hourly Flex:** Rates fluctuate based on the time of day.
+  1. No Flex (Flat Rate):** Constant cost per kWh for the entire year ($0.21 / kWh).
+  2. Monthly Flex:** Rates fluctuate depending on the month.
+  3. Hourly Flex:** Rates fluctuate based on the time of day.
 
 ## 🛠 Tech Stack
 * **Programming Language:** Python
